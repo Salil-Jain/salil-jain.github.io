@@ -347,3 +347,7 @@ h3 {
 		padding: 3px;
 	}
 }
+
+ul li{
+  display: inline;
+}
