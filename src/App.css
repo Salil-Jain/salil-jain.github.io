@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  /* font-family: monospace !important; */
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/* 
+h1 {
+  margin: 60px 0!important;
+} */
+
+.resume-button {
+  /* margin-top: 10%; */
+  display: inline-block;
+}
+
+.contact-div {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-div {
+  width: 100%;
+  text-align: right;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(235, 195, 64);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.hr-center {
+  width: 80%;
+  border: 1px solid #000 !important;
+}
+
+.oracle-link, .oracle-link:hover {
+  color: #c74634;
+}
+
+.nvidia-link, .nvidia-link:hover {
+  color: #78b800;
+}
+
+.cryptokart-link, .cryptokart-link:hover {
+  color: #0074ba;
+}
+
+.homingos-link, .homingos-link:hover {
+  color: #b43159;
+}
