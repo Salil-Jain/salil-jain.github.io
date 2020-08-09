@@ -24,13 +24,13 @@ function App() {
       </Navbar>
 
       <Switch>
-        <Route path="/projects">
+        <Route path={process.env.PUBLIC_URL + "/projects"}>
           <ProjectsComponent />
         </Route>
-        <Route path="/covid-india-api">
+        <Route path={process.env.PUBLIC_URL + "/covid-india-api"}>
           <CovidApi />
         </Route>
-        <Route path="/">
+        <Route path={process.env.PUBLIC_URL + "/"}>
           <HomeComponent />
         </Route>
       </Switch>
