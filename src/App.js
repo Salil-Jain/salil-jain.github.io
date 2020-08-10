@@ -15,7 +15,7 @@ import {
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar bg="dark" variant="dark" fixed="top">
         <Navbar.Brand href="/">Salil Jain</Navbar.Brand>
         <Nav className="ml-auto ">
@@ -24,18 +24,12 @@ function App() {
       </Navbar>
 
       <Switch>
-        <Route path={process.env.PUBLIC_URL + "/projects"}>
-          <ProjectsComponent />
-        </Route>
-        <Route path={process.env.PUBLIC_URL + "/covid-india-api"}>
-          <CovidApi />
-        </Route>
-        <Route path={process.env.PUBLIC_URL + "/"}>
-          <HomeComponent />
-        </Route>
+        <Route exact path="/" component={HomeComponent} />
+        <Route path="/projects" component={ProjectsComponent} />
+        <Route path="/covid-india-api" component={CovidApi} />
       </Switch>
       <div className="footer-div">
-        Footer Content
+        Footer Content!!!!!!!
       </div>
     </Router>
   );
