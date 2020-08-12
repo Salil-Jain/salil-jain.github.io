@@ -26,7 +26,6 @@
       var segmentCount = 0;
 
       var l = window.location;
-      console.log('lb: ', l);
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
         l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
@@ -34,7 +33,7 @@
         (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
         l.hash
       );
-      console.log('l1: ', l);
+      console.log('l1: ', window.location);
     </script>
   </head>
   <body>
