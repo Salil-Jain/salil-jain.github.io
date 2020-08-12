@@ -3,12 +3,13 @@ import React from 'react';
 import HomeComponent from './HomeComponent';
 import ProjectsComponent from './ProjectsComponent';
 import CovidApi from './CovidApi';
+import NoMatchPage from './NoMatchPage';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav } from 'react-bootstrap';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
@@ -19,7 +20,7 @@ function App() {
       <Navbar bg="dark" variant="dark" fixed="top">
         <Navbar.Brand href="/">Salil Jain</Navbar.Brand>
         <Nav className="ml-auto ">
-          <Nav.Link href="/projects">Projects</Nav.Link>
+          <Nav.Link href="/#/projects">Projects</Nav.Link>
         </Nav>
       </Navbar>
 
@@ -27,9 +28,10 @@ function App() {
         <Route exact path="/" component={HomeComponent} />
         <Route path="/projects" component={ProjectsComponent} />
         <Route path="/covid-india-api" component={CovidApi} />
+        {/* <Route component={NoMatchPage} /> */}
       </Switch>
       <div className="footer-div">
-        Footer Content!!!!!!!
+        Footer Content
       </div>
     </Router>
   );

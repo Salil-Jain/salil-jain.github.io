@@ -12,14 +12,12 @@ class HomeComponent extends Component {
             <Col lg={{ span: 6, offset: 3 }}>
               <h1>Hi, I'm <b>Salil Jain</b></h1>
               <h5>
-                I'm a Software Developer and next month I'll be joining <a href="https://www.oracle.com/" rel="noopener noreferrer" target="_blank" class="oracle-link">Oracle</a> as a Member of Technical Staff.{' '}
+                I'm a Software Engineer and next month I'll be joining <a href="https://www.oracle.com/" rel="noopener noreferrer" target="_blank" class="oracle-link">Oracle</a> as a Member of Technical Staff.{' '}
                 {/* <br/> */}
                 I love making useful applications from the technologies I learn. 
                 <br/>
                 Previously I have interned at <a href="https://www.nvidia.com" rel="noopener noreferrer" target="_blank" class="nvidia-link">NVIDIA</a>, <a href="https://www.crunchbase.com/organization/cryptokart" rel="noopener noreferrer" target="_blank" class="cryptokart-link">Cryptokart</a> and <a href="https://www.homingos.com/" rel="noopener noreferrer" target="_blank" class="homingos-link">Homingos</a>.
               </h5>
-              {/* <h1> <b>Lorem Ipsum</b></h1>
-              <h4>laksnd laksf ladkg lkadjflkan fl anfl knaslkfn laks fnlkasnflak fndlakdnf laksndf laksndlkasndlkas</h4> */}
             </Col>
           </Row>
         </Container>
