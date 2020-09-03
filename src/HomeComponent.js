@@ -12,7 +12,7 @@ class HomeComponent extends Component {
             <Col lg={{ span: 6, offset: 3 }}>
               <h1>Hi, I'm <b>Salil Jain</b></h1>
               <h5>
-                I'm a Software Engineer and next month I'll be joining <a href="https://www.oracle.com/" rel="noopener noreferrer" target="_blank" class="oracle-link">Oracle</a> as a Member of Technical Staff.{' '}
+                I'm working at <a href="https://www.oracle.com/" rel="noopener noreferrer" target="_blank" class="oracle-link">Oracle</a> as a Member of Technical Staff.{' '}
                 {/* <br/> */}
                 I love making useful applications from the technologies I learn. 
                 <br/>
