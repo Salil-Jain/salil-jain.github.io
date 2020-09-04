@@ -11,7 +11,7 @@ class ProjectsComponents extends Component {
             projectData: [
                 {
                     title: "Covid-19 cases India API",
-                    link: ["Documentation", "/#/covid-india-api"],
+                    link: ["Documentation", "https://covid-india-api.firebaseapp.com/"],
                     details: [
                         "Developed API returning Covid cases in India data from MOHFW website",
                         "The API received an average 20k hits per month"

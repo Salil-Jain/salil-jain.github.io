@@ -89,3 +89,18 @@ h1 {
 .homingos-link, .homingos-link:hover {
   color: #b43159;
 }
+
+.footer-div > a > svg {
+  margin: 0px 5px;
+  color: #aaa;
+}
+
+.footer-div > a {
+  border: 0;
+  text-decoration: none;
+  outline: none;
+}
+
+.footer-div > a > svg:hover {
+  color: #55f;
+}
